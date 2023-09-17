@@ -2880,6 +2880,7 @@ function Library:CreateWindow(WindowTitle)
         elseif Input.KeyCode == Enum.KeyCode.RightControl or (Input.KeyCode == Enum.KeyCode.RightShift and (not Processed)) then
             task.spawn(Library.Toggle)
         end
+    end))
 
         if Input:IsModifierKeyDown(Enum.ModifierKey.Ctrl) and Outer.Visible then
             local HoveringColorPicker = nil
