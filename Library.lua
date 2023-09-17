@@ -21,11 +21,11 @@ local Library = {
     RegistryMap = {};
     HudRegistry = {};
     FontColor = Color3.fromRGB(255, 255, 255); -- Default = Color3.fromRGB(255, 255, 255);
-    MainColor = Color3.fromRGB(0, 15, 30); -- Default = Color3.fromRGB(0, 15, 30);
-    BackgroundColor = Color3.fromRGB(5, 5, 20); -- Default = Color3.fromRGB(5, 5, 20);
-    AccentColor = Color3.fromRGB(0, 228, 240); -- Default = Color3.fromRGB(0, 180, 240);
-    InlineColor = Color3.fromRGB(10, 30, 40); -- Default = Color3.fromRGB(10, 30, 40);
-    OutlineColor = Color3.fromRGB(0, 0, 5); -- Default = Color3.fromRGB(0, 0, 5);
+    MainColor = Color3.fromRGB(28, 28, 28); -- Default = Color3.fromRGB(0, 15, 30);
+    BackgroundColor = Color3.fromRGB(20, 20, 20); -- Default = Color3.fromRGB(5, 5, 20);
+    AccentColor = Color3.fromRGB(0, 255, 212); -- Default = Color3.fromRGB(0, 180, 240);
+    InlineColor = Color3.fromRGB(55, 55, 55); -- Default = Color3.fromRGB(10, 30, 40);
+    OutlineColor = Color3.fromRGB(0, 0, 0), -- Default = Color3.fromRGB(0, 0, 5);
     OpenedFrames = {};
     Signals = {};
 };
